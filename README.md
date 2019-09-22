@@ -1,21 +1,44 @@
-# AR聊天室教程
+# A Chatroom for "Ether ACTIVISTS" 
 
-### 什么是AR聊天室
-AR聊天室为用户提供匿名IRC聊天频道，基于排名算法自动计算全网账户（目前已支持以太坊）指数，拥有较高账户指数的区块链用户可无门槛进入聊天室，否则需支付一定代币（CAT Token）。
+### ETHERACT CHAT
+Let's CHAT with ETHER ADDRESSES!
 
-### 如何进入聊天室
-* 登录[IRC freenode](https://webchat.freenode.net/)，进入聊天室频道`/join #archat`
-* 查看相关帮助`.help`，目前聊天室支持API包括：
-    - `.cbind [address]:[signature]`，绑定（以太坊）地址与nickname的签名
-    - `.cinfo`，查询个人信息
-    - `.ar_of_eth [address]`，查询某个地址的account rank
-    - `.ar_top`，查询top5 account rank信息
-    - `.get_cat`，获取CAT Token介绍
-* 拥有较高账户指数与支付了CAT的用户可在该周期內（一般3天）聊天，否则在一定时间后会被踢出。
+The ETHERACT CHAT is an anoymous chatroom for ETH holders. The only identity in the chatroom will be your Ethereum address. 
 
-### 如何获取CAT Token
-* 拥有较高的账户指数（[如何提高账户指数]()）。每个周期会对账户指数前10,000名，随机选取100名进行airdrop；
-* 通过[合约](https://ropsten.etherscan.io/address/0x351C54BE57c7d49CB074A47E030d8c5994eEAA16)购买，调用合约`exchange`方法，转入一定数量的ETH，可获得CAT。兑换请参见[模型]()。
+The Chatroom is built upon IRC, to enter into the chatroom, you need to be an active address on Ethereum Network. 
 
-### 如何充值CAT Token至聊天室账户
-* 调用[合约](https://ropsten.etherscan.io/address/0xf8711d5FB1387B3d4b3ae4Bc47F40593b192bC85)`transfer`方法，向[账户](https://ropsten.etherscan.io/address/0xf8711d5FB1387B3d4b3ae4Bc47F40593b192bC85)转入相应数量的CAT，完成充值。
+### Steps to CHAT with the Ether ACTIVISTS
+* Login into [IRC freenode](https://webchat.freenode.net/)，enter the channel #archat (`/join #archat`) with a nickname, for eg Vitalik :)
+* You will join the ETHERACT Chatroom with the nickname of Vitalik. 
+* The chatbot in the chatroom will ask you to bind your address with nickname saying : `Welcome Vitalik, please bind you nick to eth address ASAP. Type ".help" check how to bind your address"`
+* Type `".help"` to view the complete list of commands of the chatroom
+* Type `".cbind"` to call the chat_bot to bind your address, you will enter into a private chat with the chatbot
+* Enter [your eth address]:[your signature of nick] in the private chat 
+* to get you signature of the nick, visit http://39.107.32.62:8020. If you would like to sign offline, visit the repo  https://github.com/Tastingo/web3js-signature
+* Then you could go back to the chatroom and chat with the ETHers！ 
+
+### FAQs
+#### 1. Why I got kicked out of the chatroom after I bind my ETH address?
+* The Chatroom is available for "active" ETH address only. Only top 20,000 "active" address holders will be dropped with CAT (the native token of the chatroom) upon binding to the nickname, you need a minimum of 6 CATs to stay in the chatroom. If your CAT balance is lower than 6, you need to get more CAT to stay in the chatroom. 
+
+#### 2. How is "activity" decided?
+* To evaluate the activity of the address, we applied for the Account Rank Algorithm. The activity is mainly affected the `amount of ETH` ,  `coin days` and the `transaction relationship graph`of the address, learn more details about the algorithm, please visit: []
+
+#### 3. What is CAT and how could I get CAT?
+* CAT is the native token of the chatroom, you need to holder a minimum balance of 6 CAT to stay in the chat room
+* If you are within the top 20,000 "active" ETH address, you will be dropped with CAT by the time you bind your address to your nickname
+* If you are out of the top 20,000 active ETH addesses on Ethereum network, you could get through the CAT contract by call the `exchange` in the smart contract by sending a certain amount of ETH. To Understand about the exchange rate of ETH and CAT , please visit []
+
+#### 4. Other interesting commands to play around
+ *  `.cinfo`，Check your personal information, like your `"activity score"`
+ *  `.ar_of_eth [address]`，check the `"activity score"` of a certain ETH address
+ *  `.ar_top`，check the info of the addresses with top 5 `"activity score"`
+ *  `.get_cat`，check the info of CAT 
+    
+
+### Share your ideas with the ETHerNOBLEs
+
+@Tastingo is currently prototyping the chatroom and the underlying algorithm for the chatroom with plan to implementing on more chat tools and supporting additional ERC20 tokens. If you'd like to get involved, you can leave your idea under the github or leave your ideas in the chatroom. Thanks for reading!
+
+
+
