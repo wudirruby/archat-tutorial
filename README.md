@@ -19,7 +19,8 @@ The Chatroom is built upon IRC, to enter into the chatroom, you need to be an ac
 
 ### FAQs
 #### 1. Why I got kicked out of the chatroom after I bind my ETH address?
-* The Chatroom is available for "active" ETH address only. Only top 20,000 "active" address holders will be dropped with CAT (the native token of the chatroom) upon binding to the nickname, you need a minimum of 6 CATs to stay in the chatroom. If your CAT balance is lower than 6, you need to get more CAT to stay in the chatroom. 
+* The Chatroom is available for "active" ETH address only. Only top 20,000 "active" address holders will be dropped with CAT (the native token of the chatroom) upon binding to the nickname, you need a minimum of 6 CATs to stay in the chatroom. If your CAT balance is lower than 6, you need to get more CAT to stay in the chatroom.  
+* To check the amount of CAT you hold, enter `.cinfo` in the chat with the chatbot
 
 #### 2. How is "activity" decided?
 * To evaluate the activity of the address, we applied for the Account Rank Algorithm. The activity is mainly affected the `amount of ETH` ,  `coin days` and the `transaction relationship graph`of the address, learn more details about the algorithm, please visit: []
@@ -30,7 +31,7 @@ The Chatroom is built upon IRC, to enter into the chatroom, you need to be an ac
 * If you are out of the top 20,000 active ETH addesses on Ethereum network, you could get through the CAT contract by call the `exchange` in the smart contract by sending a certain amount of ETH. To Understand about the exchange rate of ETH and CAT , please visit []
 
 #### 4. Other interesting commands to play around
- *  `.cinfo`，Check your personal information, like your `"activity score"`
+ *  `.cinfo`，Check your how many CAT you have
  *  `.ar_of_eth [address]`，check the `"activity score"` of a certain ETH address
  *  `.ar_top`，check the info of the addresses with top 5 `"activity score"`
  *  `.get_cat`，check the info of CAT 
