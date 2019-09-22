@@ -13,7 +13,7 @@ The Chatroom is built upon IRC, to enter into the chatroom, you need to be an ac
 * The chatbot in the chatroom will ask you to bind your address with nickname saying : `Welcome Vitalik, please bind you nick to eth address ASAP. Type ".help" check how to bind your address"`
 * Type `".help"` to view the complete list of commands of the chatroom
 * Type `".cbind"` to call the chat_bot to bind your address, you will enter into a private chat with the chatbot
-* Enter [your eth address]:[your signature of nick] in the private chat 
+* Enter `.cbinf [your eth address]:[your signature of nick]` in the private chat 
 * to get you signature of the nick, visit http://39.107.32.62:8020. If you would like to sign offline, visit the repo  https://github.com/Tastingo/web3js-signature
 * Then you could go back to the chatroom and chat with the ETHers！ 
 
