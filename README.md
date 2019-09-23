@@ -25,7 +25,7 @@ The Chatroom is built upon IRC, to enter into the chatroom, you need to be an ac
 * To evaluate the activity of the address, we applied for the Account Rank Algorithm. The activity is mainly affected the `amount of ETH` ,  `coin days` and the `transaction relationship graph`of the address, learn more details about the algorithm, please visit: []
 
 #### 3. What is CAT and how could I get CAT?
-* CAT is the native token of the chatroom, you need to holder a minimum balance of 6 CAT to stay in the chat room
+* CAT is the native token of the chatroom, you need to hold a minimum balance of 6 CAT to stay in the chat room
 * If you are within the top 20,000 "active" ETH address, you will be dropped with CAT by the time you bind your address to your nickname
 * If you are out of the top 20,000 active ETH addesses on Ethereum network, you could get through the CAT contract by call the `exchange` in the smart contract by sending a certain amount of ETH. To Understand about the exchange rate of ETH and CAT , please visit []
 
