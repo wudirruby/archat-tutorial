@@ -36,7 +36,7 @@ The Chatroom is built upon IRC, to enter into the chatroom, you need to be an ac
  *  `.get_cat`，check the info of CAT 
     
 
-### Share your ideas with the ETHerACTIVISTS
+### Share your ideas with the ETHerACT
 
 @Tastingo is currently prototyping the chatroom and the underlying algorithm for the chatroom with plan to implementing on more chat tools and supporting additional ERC20 tokens. If you'd like to get involved, you can leave your idea under the github or leave your ideas in the chatroom. Thanks for reading!
 
